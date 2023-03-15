@@ -67,7 +67,6 @@ FileForm.addEventListener("submit", function (e) {
         const data = HandlingEmployeeWorkTime(text);
         document.getElementById("result").innerHTML =
             `<h3>The result is: </br> ${JSON.stringify(data)}</h3>`;
-        //document.write(JSON.stringify(data));
     };
     reader.readAsText(input);
 });
