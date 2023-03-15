@@ -50,7 +50,7 @@ function HandlingEmployeeWorkTime(str, delimiter = ";") {
             Object.keys(daysTogether).reduce((a, b) =>
                 daysTogether[a] > daysTogether[b] ? a : b
             )
-        ];
+        ][0];
     }
 
 }
