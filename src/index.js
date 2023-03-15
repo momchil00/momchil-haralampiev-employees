@@ -71,6 +71,3 @@ FileForm.addEventListener("submit", function (e) {
     };
     reader.readAsText(input);
 });
-
-
-//npm install --save moment
