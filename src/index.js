@@ -42,8 +42,6 @@ function HandlingEmployeeWorkTime(str, delimiter = ";") {
             });
         });
 
-    console.log(daysTogether);
-
     if (Object.keys(daysTogether).length === 0) {
         return 'No results'
     } else {
