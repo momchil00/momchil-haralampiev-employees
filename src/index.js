@@ -65,7 +65,7 @@ FileForm.addEventListener("submit", function (e) {
     reader.onload = function (e) {
         const text = e.target.result;
         const data = HandlingEmployeeWorkTime(text);
-        document.getElementById("resultata").innerHTML =
+        document.getElementById("result").innerHTML =
             `<h3>The result is: </br> ${JSON.stringify(data)}</h3>`;
         //document.write(JSON.stringify(data));
     };
